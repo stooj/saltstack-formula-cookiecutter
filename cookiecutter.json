@@ -9,7 +9,7 @@
     "version": "{% now 'utc', '%Y%m' %}",
     "owner": ["Massachusetts Institute of Technology", "SaltStack Formulas"],
     "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
-    "vagrant_box": ["multi", "centos/7", "debian/wheezy64", "debian/jessie64", "ubuntu/trusty64", "ubuntu/xenial64"],
+    "vagrant_box": ["multi", "centos/7", "debian/wheezy64", "debian/jessie64", "ubuntu/trusty64", "ubuntu/xenial64", "ubuntu/bionic64"],
     "supported_os": "RedHat, CentOS, Ubuntu, Debian",
     "supported_os_family": "RedHat, Debian",
     "deploy_as_salt_package": ["False", "True"],
